@@ -1,4 +1,4 @@
-import angular from 'angular';
+import * as angular from "angular";
 import { NavComponent } from './nav.component';
 import './nav.scss';
 
