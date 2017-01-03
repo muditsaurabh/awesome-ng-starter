@@ -11,7 +11,7 @@ export const AppModule = angular
   ])
   .component('app', AppComponent)
   .config(($stateProvider, $urlRouterProvider) => {
-    'ngInject';
+    // 'ngInject';
     $stateProvider.state('home', {
       url: '/',
       template: '<my-component>{{$resolve.user}}</my-component>',
@@ -22,7 +22,7 @@ export const AppModule = angular
     $urlRouterProvider.otherwise('/');
   })
   .run(() => {
-    'ngInject';
+    // 'ngInject';
 
   })
   .name;
